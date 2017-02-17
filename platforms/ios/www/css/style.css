@@ -1,0 +1,28 @@
+.key{
+	width: 100%;
+}
+
+.icon {
+   font-size: 50px;
+}
+
+.list_card{
+    width: auto;
+    height: auto;
+}
+
+.bouton{
+	width: 40%;
+	margin-left: 5%;
+}/* Empty. Add your own CSS if you like */
+
+
+
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}

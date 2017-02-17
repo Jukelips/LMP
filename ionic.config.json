@@ -1,0 +1,10 @@
+{
+  "name": "LoveMyPlanet",
+  "app_id": "18241996",
+  "proxies": [
+    {
+      "path": "/server",
+      "proxyUrl": "http://213.245.245.68/"
+    }
+  ]
+}

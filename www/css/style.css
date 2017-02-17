@@ -1,0 +1,77 @@
+ion-view
+{
+    font-family: 'Verdana', cursive;
+}
+
+.key{
+	width: 100%;
+}
+
+.icon{
+   font-size: 50px;
+}
+
+.list_card{
+    width: auto;
+    height: auto;
+}
+
+.colorArrow{
+    background-color: rgb(84,130,53);
+}
+
+#text
+{
+    float: left;
+    width: 70%;
+    margin-top: 4%;
+}
+
+.bouton{
+	width: 40%;
+	margin-left: 5%;
+}/* Empty. Add your own CSS if you like */
+
+#gear{
+float: right;
+width: 11%;
+}
+
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+input#objMail.form-control
+{
+    margin-top: 10%;
+    display: block;
+    width: 90%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea#corpMail.form-control
+{
+    width: 90%;
+    margin-bottom: 10%;
+}
+
+#titleMail
+{
+    margin-top: 3%;
+    color : #11c1f3;
+}
+
+img#homeIMG.full-image.key{margin-left: 0%;}

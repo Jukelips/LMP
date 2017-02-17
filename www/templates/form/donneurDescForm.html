@@ -1,0 +1,64 @@
+<ion-view view-title="Espace infos">
+    <ion-content ng-controller="donneurDescFormCtrl">
+        <!--
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Adresse</span>
+    <input type="text" placeholder="Rue de ...">
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Code postal</span>
+    <input type="text" placeholder="75000">
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Ville</span>
+    <input type="text" placeholder="Paris">
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Description de votre activité</span>
+    <input type="text" placeholder="Une courte description...">
+  </label>
+            <label class="item item-input item-stacked-label"><span class="input-label">Horaires d'ouverture de votre magasin</span>
+    <input type="time" placeholder="">
+  </label>
+            <label class="item item-input item-stacked-label">
+         <span class="input-label">Photo de votre restaurant</span>
+    <input type="file">  
+       </label>
+        </div>
+-->
+        <div class="item item-divider">
+            <label class="item item-icon-left"> 
+        <i class="icon ion-clipboard"></i>
+        Paramétrer mes informations
+        </label>
+        </div>
+
+        <div class="list card">
+
+            <label class="item item-icon-left">
+    <i class="icon ion-home"></i>
+    Votre adresse :
+    <input type="text" placeholder="John">
+  </label>
+
+            <label class="item item-icon-left">
+    <i class="icon ion-ios-telephone"></i>
+    Votre numéro de téléphone :
+    <input type="text" placeholder="John">
+  </label>
+
+            <label class="item item-icon-left">
+    <i class="icon ion-android-bulb"></i>
+    N° de SIRET : 
+    <input type="text" placeholder="John">
+  </label>
+
+        </div>
+        <div class="item item-body">
+            <button class="button button-balanced button-outline button-block" ng-click="submitForm()">
+                 Sauvegarder
+            </button>
+        </div>
+    </ion-content>
+</ion-view>

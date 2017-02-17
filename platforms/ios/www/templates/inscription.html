@@ -1,0 +1,46 @@
+<ion-view view-title="Inscription">
+	<ion-content>
+        <div class="list">
+          <div class="item item-divider">
+            Information sur le contact
+          </div>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Prénom</span>
+            <input type="text" placeholder="John">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Nom</span>
+            <input type="text" placeholder="Doe">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Email</span>
+            <input type="email" placeholder="john@doe.com">
+          </label>
+          <label class="item item-input item-stacked-label">
+            <span class="input-label">Numéro de téléphone</span>
+            <input type="tel" pattern= "^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" placeholder="06.13.37.37.37">
+          </label>
+        </div>
+                
+        <div class="list">
+
+            <label class="item item-input item-select">
+            <div class="input-label">
+                Type de donneurs ? 
+            </div>
+                <select>
+                <option selected>Restaurant</option>
+                <option>Café</option>
+                <option>Commerce</option>
+                <option>Particulier</option>
+                </select>
+            </label>
+
+        </div>
+        <div class="item item-body">
+             <button class="button button-balanced button-outline button-block" ui-sref="">
+                 Valider
+            </button>
+        </div>
+    </ion-content>
+</ion-view>

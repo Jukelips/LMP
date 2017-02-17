@@ -1,0 +1,30 @@
+<ion-view view-title="Paramètres de vos informations">
+    <ion-content ng-controller="donneurDescFormCtrl">
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Adresse</span>
+    <input type="text" placeholder="Rue de ...">
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Code postal</span>
+    <input type="text" placeholder="75000">
+  </label>
+            <label class="item item-input item-stacked-label">
+    <span class="input-label">Description de votre activité</span>
+    <input type="text" placeholder="Une courte description...">
+  </label>
+            <label class="item item-input item-stacked-label"><span class="input-label">Horaires d'ouverture de votre magasin</span>
+    <input type="time" placeholder="">
+  </label>
+            <label class="item item-input item-stacked-label">
+         <span class="input-label">Photo de votre restaurant</span>
+    <input type="file">  
+       </label>
+        </div>
+        <div class="item item-body">
+            <button class="button button-balanced button-outline button-block" ng-click="submitForm()">
+                 Sauvegarder
+            </button>
+        </div>
+    </ion-content>
+</ion-view>
